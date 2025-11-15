@@ -1,0 +1,26 @@
+two-tier-flask-app/
+
+# Docker Volumes and database files (persistent storage, do not push to git)
+volumes/
+**/mysql-data/
+*.sdi
+*.ibd
+
+# Python ignores
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Java ignores
+*.class
+target/
+.gradle/
+build/
+
+# OS / IDE metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
